@@ -18,7 +18,7 @@ package com.example.android.miwok;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FamilyActivity extends AppCompatActivity {
+public class FamilyActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,4 +28,6 @@ public class FamilyActivity extends AppCompatActivity {
                 .replace(R.id.container, new FamilyFragment())
                 .commit();
     }
-} 
+
+
+}
